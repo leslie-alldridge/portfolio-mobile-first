@@ -25,7 +25,16 @@ export default function PortfolioHeader(props) {
   return (
     <div id="portImg" style={divStyle}>
       <Jumbotron style={heroText}>
-        <h3>Portfolio</h3>
+        <h3
+          data-aos="slide-left"
+          data-aos-anchor-placement="top-center"
+          data-aos-duration="600"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="true"
+        >
+          Portfolio
+        </h3>
       </Jumbotron>
     </div>
   );
