@@ -49,3 +49,10 @@ body {
     ),
     url(/portfolioheader.png);
 }
+
+#center-tabs {
+  margin: 0 auto !important;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
