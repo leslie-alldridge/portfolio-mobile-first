@@ -4,7 +4,7 @@ import { Navbar, Nav, NavItem } from "react-bootstrap";
 export default function NavbarTop() {
   return (
     <Navbar inverse collapseOnSelect>
-      <Navbar.Header>
+      <Navbar.Header style={{ paddingLeft: "2%", paddingRight: "2%" }}>
         <Navbar.Brand>
           <a href="#">Leslie Alldridge</a>
         </Navbar.Brand>
