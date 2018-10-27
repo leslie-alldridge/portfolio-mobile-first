@@ -6,7 +6,17 @@ export default class Portfolio extends React.Component {
     return (
       <Grid>
         <Row>
-          <Col id="portfolio-col" xs={12} md={4}>
+          <Col
+            id="portfolio-col"
+            xs={12}
+            md={4}
+            data-aos="flip-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-duration="600"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="true"
+          >
             <Thumbnail
               id="port"
               src="/new.png"
@@ -25,7 +35,17 @@ export default class Portfolio extends React.Component {
               </p>
             </Thumbnail>
           </Col>
-          <Col id="portfolio-col" xs={12} md={4}>
+          <Col
+            id="portfolio-col"
+            xs={12}
+            md={4}
+            data-aos="flip-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-duration="600"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="true"
+          >
             <Thumbnail
               id="port"
               src="/gyst.png"
@@ -44,7 +64,17 @@ export default class Portfolio extends React.Component {
               </p>
             </Thumbnail>
           </Col>
-          <Col id="portfolio-col" xs={12} md={4}>
+          <Col
+            id="portfolio-col"
+            xs={12}
+            md={4}
+            data-aos="flip-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-duration="600"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="true"
+          >
             <Thumbnail
               id="port"
               src="/void2.png"
@@ -66,7 +96,17 @@ export default class Portfolio extends React.Component {
         </Row>
         {/* SECOND ROW */}
         <Row>
-          <Col id="portfolio-col" xs={12} md={4}>
+          <Col
+            id="portfolio-col"
+            xs={12}
+            md={4}
+            data-aos="flip-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-duration="600"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="true"
+          >
             <Thumbnail
               id="port"
               src="/duplicate.png"
@@ -86,7 +126,17 @@ export default class Portfolio extends React.Component {
               </p>
             </Thumbnail>
           </Col>
-          <Col id="portfolio-col" xs={12} md={4}>
+          <Col
+            id="portfolio-col"
+            xs={12}
+            md={4}
+            data-aos="flip-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-duration="600"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="true"
+          >
             <Thumbnail
               id="port"
               src="/cube.png"
@@ -105,7 +155,17 @@ export default class Portfolio extends React.Component {
               </p>
             </Thumbnail>
           </Col>
-          <Col id="portfolio-col" xs={12} md={4}>
+          <Col
+            id="portfolio-col"
+            xs={12}
+            md={4}
+            data-aos="flip-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-duration="600"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="true"
+          >
             <Thumbnail
               id="port"
               src="/motiv.png"
@@ -129,7 +189,17 @@ export default class Portfolio extends React.Component {
         </Row>
         {/* THIRD ROW */}
         <Row>
-          <Col id="portfolio-col" xs={12} md={4}>
+          <Col
+            id="portfolio-col"
+            xs={12}
+            md={4}
+            data-aos="flip-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-duration="600"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="true"
+          >
             <Thumbnail
               id="port"
               src="/v2void.png"
@@ -149,7 +219,17 @@ export default class Portfolio extends React.Component {
               </p>
             </Thumbnail>
           </Col>
-          <Col id="portfolio-col" xs={12} md={4}>
+          <Col
+            id="portfolio-col"
+            xs={12}
+            md={4}
+            data-aos="flip-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-duration="600"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="true"
+          >
             <Thumbnail
               id="port"
               src="/circles.png"
@@ -168,7 +248,17 @@ export default class Portfolio extends React.Component {
               </p>
             </Thumbnail>
           </Col>
-          <Col id="portfolio-col" xs={12} md={4}>
+          <Col
+            id="portfolio-col"
+            xs={12}
+            md={4}
+            data-aos="flip-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-duration="600"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="true"
+          >
             <Thumbnail
               id="port"
               src="/summary2.png"

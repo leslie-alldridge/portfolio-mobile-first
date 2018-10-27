@@ -52,11 +52,15 @@ body {
     url(/bg.jpg);
 }
 
-/* #portfolio-col {
-  width: 100vw;
-  padding: 0 !important;
-  margin: 0 !important;
-} */
+#portfolio-col {
+  /* min-height: 385px !important;
+  min-width: 350px; */
+}
+
+#port {
+  min-height: 385px;
+  min-width: 350px;
+}
 
 .container {
   padding: 0 !important;
