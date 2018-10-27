@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from "react-bootstrap";
+import { Navbar, Nav, NavItem } from "react-bootstrap";
 
 export default function NavbarTop() {
   return (
@@ -12,26 +12,25 @@ export default function NavbarTop() {
       </Navbar.Header>
       <Navbar.Collapse>
         <Nav>
-          <NavItem eventKey={1} href="#">
-            Link
+          <NavItem eventKey={1} href="#1">
+            Portfolio
           </NavItem>
-          <NavItem eventKey={2} href="#">
-            Link
+          <NavItem eventKey={2} href="#2">
+            Blog
           </NavItem>
-          <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
-            <MenuItem eventKey={3.1}>Action</MenuItem>
-            <MenuItem eventKey={3.2}>Another action</MenuItem>
-            <MenuItem eventKey={3.3}>Something else here</MenuItem>
-            <MenuItem divider />
-            <MenuItem eventKey={3.3}>Separated link</MenuItem>
-          </NavDropdown>
+          <NavItem eventKey={3} href="#3">
+            Contact
+          </NavItem>
+          <NavItem eventKey={4} href="#4">
+            About
+          </NavItem>
         </Nav>
         <Nav pullRight>
           <NavItem eventKey={1} href="#">
-            Link Right
+            Github
           </NavItem>
           <NavItem eventKey={2} href="#">
-            Link Right
+            LinkedIn
           </NavItem>
         </Nav>
       </Navbar.Collapse>
