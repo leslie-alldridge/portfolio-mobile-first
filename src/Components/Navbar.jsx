@@ -12,7 +12,7 @@ export default function NavbarTop() {
       </Navbar.Header>
       <Navbar.Collapse>
         <Nav>
-          <NavItem eventKey={1} href="#1">
+          <NavItem eventKey={1} href="#portImg">
             Portfolio
           </NavItem>
           <NavItem eventKey={2} href="#2">
@@ -26,11 +26,19 @@ export default function NavbarTop() {
           </NavItem>
         </Nav>
         <Nav pullRight>
-          <NavItem eventKey={1} href="#">
-            Github
+          <NavItem
+            eventKey={1}
+            target="_blank"
+            href="https://github.com/leslie-alldridge"
+          >
+            <i class="fab fa-github" /> Github
           </NavItem>
-          <NavItem eventKey={2} href="#">
-            LinkedIn
+          <NavItem
+            eventKey={2}
+            target="_blank"
+            href="https://www.linkedin.com/in/lesliealldridge/"
+          >
+            <i class="fab fa-linkedin" /> LinkedIn
           </NavItem>
         </Nav>
       </Navbar.Collapse>
