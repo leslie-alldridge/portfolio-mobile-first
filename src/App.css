@@ -31,6 +31,14 @@
   }
 }
 
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .navbar {
   margin-bottom: 0 !important;
 }
@@ -42,4 +50,14 @@
       rgba(255, 0, 150, 0.3)
     ),
     url(/bg.jpg);
+}
+
+/* #portfolio-col {
+  width: 100vw;
+  padding: 0 !important;
+  margin: 0 !important;
+} */
+
+.container {
+  padding: 0 !important;
 }
