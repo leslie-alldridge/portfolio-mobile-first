@@ -53,15 +53,30 @@ body {
 }
 
 #portfolio-col {
-  /* min-height: 385px !important;
-  min-width: 350px; */
 }
 
 #port {
+  margin-top: 2%;
   min-height: 385px;
   min-width: 350px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#port:hover {
+  text-decoration: none;
+  box-shadow: 0 4px 8px 0 rgba(255, 17, 0, 0.2),
+    0 6px 20px 0 rgba(255, 17, 0, 0.19);
 }
 
 .container {
   padding: 0 !important;
+}
+
+#portImg {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 0, 150, 0.3),
+      rgba(255, 0, 150, 0.3)
+    ),
+    url(/portfolioheader.png);
 }
