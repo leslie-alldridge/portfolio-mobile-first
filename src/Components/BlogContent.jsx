@@ -1,6 +1,9 @@
-import React from 'react';
-import { Tab, Row, Col, Nav, NavItem } from 'react-bootstrap';
-import TechBlogs from './TechBlogs';
+import React from "react";
+import { Tab, Row, Col, Nav, NavItem } from "react-bootstrap";
+
+import TechBlogs from "./TechBlogs";
+import PersonalBlogs from "./PersonalBlogs";
+
 export default function BlogContent(props) {
   return (
     <div>
@@ -15,7 +18,9 @@ export default function BlogContent(props) {
 
           <Col sm={4} md={6} lg={12}>
             <Tab.Content animation>
-              <Tab.Pane eventKey="first">Content</Tab.Pane>
+              <Tab.Pane eventKey="first">
+                <PersonalBlogs />
+              </Tab.Pane>
               <Tab.Pane eventKey="second">
                 <TechBlogs />
               </Tab.Pane>
