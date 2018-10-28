@@ -9,7 +9,6 @@ export default function TechBlogs(props) {
           <b>React and Redux</b>
         </h4>
         <i id="date">19 Sep 2018</i>
-
         <br />
         <p>
           This website is 100% React and utlises both stateless and stateful
@@ -26,7 +25,6 @@ export default function TechBlogs(props) {
           <b>Full Stack</b>
         </h4>
         <i id="date">23 Sep 2018</i>
-
         <br />
         <p>
           I'm now able to confidently code full stack applications and this has
@@ -44,7 +42,6 @@ export default function TechBlogs(props) {
           <b>My next areas of focus</b>
         </h4>
         <i id="date">23 Oct 2018</i>
-
         <br />
         <p>
           In the near future I'll be diving into complex data structures and
