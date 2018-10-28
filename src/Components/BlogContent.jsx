@@ -10,7 +10,7 @@ export default function BlogContent(props) {
       <Tab.Container id="center-tabs" defaultActiveKey="first">
         <Row className="clearfix">
           <Col sm={4} md={6} lg={12}>
-            <Nav bsStyle="pills">
+            <Nav id="navBlog" bsStyle="pills">
               <NavItem eventKey="first">Personal Blogs</NavItem>
               <NavItem eventKey="second">Technical Blogs</NavItem>
             </Nav>
