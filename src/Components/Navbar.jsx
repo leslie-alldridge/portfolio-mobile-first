@@ -1,10 +1,10 @@
-import React from "react";
-import { Navbar, Nav, NavItem } from "react-bootstrap";
+import React from 'react';
+import { Navbar, Nav, NavItem } from 'react-bootstrap';
 
 export default function NavbarTop() {
   return (
     <Navbar inverse collapseOnSelect>
-      <Navbar.Header style={{ paddingLeft: "2%", paddingRight: "2%" }}>
+      <Navbar.Header style={{ paddingLeft: '2%', paddingRight: '2%' }}>
         <Navbar.Brand>
           <a href="#">Leslie Alldridge</a>
         </Navbar.Brand>
@@ -12,16 +12,16 @@ export default function NavbarTop() {
       </Navbar.Header>
       <Navbar.Collapse>
         <Nav>
-          <NavItem eventKey={1} href="#portImg">
+          <NavItem eventKey={1} href="#portfolio">
             Portfolio
           </NavItem>
-          <NavItem eventKey={2} href="#2">
-            Blog
+          <NavItem eventKey={2} href="#blogs">
+            Blogs
           </NavItem>
-          <NavItem eventKey={3} href="#3">
+          <NavItem eventKey={3} href="#contact">
             Contact
           </NavItem>
-          <NavItem eventKey={4} href="#4">
+          <NavItem eventKey={4} href="#about">
             About
           </NavItem>
         </Nav>

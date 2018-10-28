@@ -21,9 +21,9 @@ const heroText = {
   background: 'none'
 };
 
-export default function PortfolioHeader(props) {
+export default function ContactHeader(props) {
   return (
-    <div id="portfolio" style={divStyle}>
+    <div id="contact" style={divStyle}>
       <Jumbotron style={heroText}>
         <h3
           data-aos="slide-left"
@@ -33,7 +33,7 @@ export default function PortfolioHeader(props) {
           data-aos-mirror="true"
           data-aos-once="true"
         >
-          Portfolio
+          Contact
         </h3>
       </Jumbotron>
     </div>

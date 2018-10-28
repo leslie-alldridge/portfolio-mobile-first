@@ -25,7 +25,7 @@ body {
 }
 
 #port {
-  margin-top: 2%;
+  margin-top: 4%;
   min-height: 385px;
   min-width: 350px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -41,7 +41,10 @@ body {
   padding: 0 !important;
 }
 
-#portImg {
+#portfolio,
+#blogs,
+#contact,
+#about {
   background: linear-gradient(
       0deg,
       rgba(255, 0, 150, 0.3),

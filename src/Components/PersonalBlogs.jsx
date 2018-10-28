@@ -1,5 +1,5 @@
-import React from "react";
-import { Col } from "react-bootstrap";
+import React from 'react';
+import { Col } from 'react-bootstrap';
 
 export default function PersonalBlogs(props) {
   return (
@@ -8,7 +8,7 @@ export default function PersonalBlogs(props) {
         <h4>
           <b>Learning to learn</b>
         </h4>
-        <i id="date">19 Sep 2018</i>
+        <i id="date">19 May 2018</i>
         <br />
         <p>
           Learning to learn is a great skill that isn't acquired naturally for
@@ -25,7 +25,7 @@ export default function PersonalBlogs(props) {
         <h4>
           <b>Mindfulness</b>
         </h4>
-        <i id="date">23 Sep 2018</i>
+        <i id="date">25 Jun 2018</i>
         <br />
         <p>
           Enspiral Dev Academy has taught me the importantance of mindfulness in
@@ -42,7 +42,7 @@ export default function PersonalBlogs(props) {
         <h4>
           <b>Teamwork</b>
         </h4>
-        <i id="date">23 Oct 2018</i>
+        <i id="date">12 Sep 2018</i>
         <br />
         <p>
           One of the most important concepts I've learned is that projects
@@ -58,7 +58,7 @@ export default function PersonalBlogs(props) {
         <h4>
           <b>Goals and Reflections</b>
         </h4>
-        <i id="date">29 Oct 2018</i>
+        <i id="date">15 Sep 2018</i>
         <br />
         <p>
           Writing goals and reflecting on experiences has become part of my
