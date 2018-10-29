@@ -18,7 +18,7 @@ export default function Contact(props) {
             />
           </Media.Left>
           <Media.Body align="right">
-            <Media.Heading>Leslie Alldridge</Media.Heading>
+            <Media.Heading id="contactHead">Leslie Alldridge</Media.Heading>
             <ul>
               <li data-aos="zoom-out-left" data-aos-duration="9000">
                 <strong>Email: </strong>

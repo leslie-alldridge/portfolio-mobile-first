@@ -85,7 +85,6 @@ body {
 #contactCard {
   margin: 0 auto;
   max-width: 1170px;
-  width: 95%;
   box-shadow: 0 4px 8px 0 rgba(250, 22, 22, 0.2),
     0 6px 20px 0 rgba(247, 12, 12, 0.19);
   padding: 2%;
@@ -110,12 +109,16 @@ body {
   #contactCard {
     font-size: 0.75em;
     padding-right: 1%;
+    width: 95%;
   }
   #imgCircle {
     height: 64px;
     width: 64px;
 
     margin-left: 28%;
+  }
+  #contactHead {
+    margin-left: 14%;
   }
 }
 
@@ -127,4 +130,24 @@ body {
 #center {
   margin: 0 auto;
   max-width: 600px;
+}
+
+#wellLeft {
+  box-shadow: 0 4px 8px 0 rgba(250, 22, 22, 0.2),
+    0 6px 20px 0 rgba(247, 12, 12, 0.19);
+  width: 50%;
+  margin-right: 2%;
+}
+
+#wellRight {
+  box-shadow: 0 4px 8px 0 rgba(250, 22, 22, 0.2),
+    0 6px 20px 0 rgba(247, 12, 12, 0.19);
+  width: 50%;
+}
+
+#aboutPage {
+  margin-top: 2%;
+  display: inline-flex;
+  width: 100%;
+  text-align: justify;
 }
