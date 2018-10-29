@@ -33,7 +33,7 @@ export default function BlogHeading(props) {
           data-aos-mirror="true"
           data-aos-once="true"
         >
-          Personal &amp; Technical Blogs
+          Blogs
         </h3>
       </Jumbotron>
       <a id="top" href="">

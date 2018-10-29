@@ -20,19 +20,35 @@ export default function Contact(props) {
           <Media.Body align="right">
             <Media.Heading id="contactHead">Leslie Alldridge</Media.Heading>
             <ul>
-              <li data-aos="zoom-out-left" data-aos-duration="9000">
+              <li
+                data-aos-once="true"
+                data-aos="zoom-out-left"
+                data-aos-duration="9000"
+              >
                 <strong>Email: </strong>
                 leslie.alldridge@gmail.com
               </li>
-              <li data-aos="zoom-in-left" data-aos-duration="11000">
+              <li
+                data-aos-once="true"
+                data-aos="zoom-in-left"
+                data-aos-duration="11000"
+              >
                 <strong>Mobile: </strong>
                 027-331-3416
               </li>
-              <li data-aos="zoom-out-left" data-aos-duration="13000">
+              <li
+                data-aos-once="true"
+                data-aos="zoom-out-left"
+                data-aos-duration="13000"
+              >
                 <strong>Location: </strong>
                 Wellington, New Zealand
               </li>
-              <li data-aos="zoom-in-left" data-aos-duration="15000">
+              <li
+                data-aos-once="true"
+                data-aos="zoom-in-left"
+                data-aos-duration="15000"
+              >
                 <strong>Find me online: </strong> My GitHub and LinkedIn pages
                 are linked below:
               </li>
