@@ -1,6 +1,6 @@
-import React from "react";
-import { Grid, Thumbnail, Row, Col } from "react-bootstrap";
-import PortfolioHeader from "./PortfolioHeader";
+import React from 'react';
+import { Grid, Thumbnail, Row, Col } from 'react-bootstrap';
+import PortfolioHeader from './PortfolioHeader';
 
 export default class Portfolio extends React.Component {
   render() {
