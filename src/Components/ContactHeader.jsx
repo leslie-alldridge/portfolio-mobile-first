@@ -36,6 +36,9 @@ export default function ContactHeader(props) {
           Contact
         </h3>
       </Jumbotron>
+      <a id="top" href="">
+        <i id="arrow" class="fas fa-chevron-circle-up" />
+      </a>
     </div>
   );
 }

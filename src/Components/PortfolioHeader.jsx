@@ -36,6 +36,9 @@ export default function PortfolioHeader(props) {
           Portfolio
         </h3>
       </Jumbotron>
+      <a id="top" href="">
+        <i id="arrow" class="fas fa-chevron-circle-up" />
+      </a>
     </div>
   );
 }
