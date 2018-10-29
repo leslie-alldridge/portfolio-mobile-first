@@ -1,8 +1,8 @@
-import React from "react";
-import { Tab, Row, Col, Nav, NavItem } from "react-bootstrap";
+import React from 'react';
+import { Tab, Row, Col, Nav, NavItem } from 'react-bootstrap';
 
-import TechBlogs from "./TechBlogs";
-import PersonalBlogs from "./PersonalBlogs";
+import TechBlogs from './TechBlogs';
+import PersonalBlogs from './PersonalBlogs';
 
 export default function BlogContent(props) {
   return (

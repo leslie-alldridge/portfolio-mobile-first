@@ -34,17 +34,17 @@ export default function Contact(props) {
               </li>
               <li data-aos="zoom-in-left" data-aos-duration="15000">
                 <strong>Find me online: </strong> My GitHub and LinkedIn pages
-                are below:
+                are linked below:
               </li>
 
               <a
                 id="contactLink"
                 href="https://www.linkedin.com/in/lesliealldridge/"
               >
-                <i class="fab fa-linkedin" /> LinkedIn
+                <i id="pixel" class="fab fa-linkedin" /> LinkedIn
               </a>
               <a id="contactLink" href="https://github.com/leslie-alldridge">
-                <i class="fab fa-github" /> Github
+                <i id="pixel" class="fab fa-github" /> Github
               </a>
             </ul>
           </Media.Body>

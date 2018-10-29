@@ -6,7 +6,9 @@ export default function NavbarTop() {
     <Navbar inverse collapseOnSelect>
       <Navbar.Header style={{ paddingLeft: '2%', paddingRight: '2%' }}>
         <Navbar.Brand>
-          <a href="">Leslie Alldridge</a>
+          <a id="navBrand" href="">
+            Leslie Alldridge
+          </a>
         </Navbar.Brand>
         <Navbar.Toggle />
       </Navbar.Header>
