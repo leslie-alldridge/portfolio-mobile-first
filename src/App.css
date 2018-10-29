@@ -166,6 +166,12 @@ body {
   }
 }
 
+@media only screen and (max-height: 450px) {
+  #portfolio {
+    height: 18vh !important;
+  }
+}
+
 #contactLink:hover {
   text-decoration: none;
   color: rgba(219, 57, 57, 0.801);
