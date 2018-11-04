@@ -298,7 +298,7 @@ export default class Portfolio extends React.Component {
                 id="port"
                 src="/docker.png"
                 alt="242x200"
-                href="https://bulkvoidxero.herokuapp.com/"
+                href="https://github.com/leslie-alldridge/mern-boilerplate"
                 target="_blank"
               >
                 <h3>
@@ -306,10 +306,8 @@ export default class Portfolio extends React.Component {
                 </h3>
                 <br />
                 <p>
-                  The cute Docker whale caught my attention while I was browsing
-                  the web. I've since learned how to use various Docker commands
-                  to create images, host projects on Docker and deploy them to
-                  Heroku.{' '}
+                  I've learned how to use various Docker commands to create
+                  images, host projects on Docker and deploy them to Heroku.{' '}
                   <a
                     href="https://github.com/leslie-alldridge/mern-boilerplate"
                     target="_blank"
@@ -340,13 +338,13 @@ export default class Portfolio extends React.Component {
             >
               <Thumbnail
                 id="port"
-                src="/docker.png"
+                src="/numbergame2.png"
                 alt="242x200"
                 href="https://github.com/leslie-alldridge/number-guesser"
                 target="_blank"
               >
                 <h3>
-                  <b>C# Basics and Number Guessing Game</b>
+                  <b>Number Guessing Game</b>
                 </h3>
                 <br />
                 <p>
@@ -373,7 +371,7 @@ export default class Portfolio extends React.Component {
                 id="port"
                 src="/loading.png"
                 alt="242x200"
-                href="https://bulkvoidxero.herokuapp.com/"
+                href="https://github.com/leslie-alldridge"
                 target="_blank"
               >
                 <h3>
