@@ -50,7 +50,8 @@ export default function TechBlogs(props) {
           but some ways are more efficient than others when the array contains
           thousands of items. I was inspired by a YouTube video of a Google
           interview, where the software engineer discoved more than five ways to
-          achieve the same outcome.
+          achieve the same outcome. I'm currently learning C#, Rails, MongoDB,
+          Docker and Python.
         </p>
       </Col>
       <Col id="blogCol">
