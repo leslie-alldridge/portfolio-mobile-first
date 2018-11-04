@@ -281,6 +281,113 @@ export default class Portfolio extends React.Component {
               </Thumbnail>
             </Col>
           </Row>
+          {/* FOURTH ROW */}
+          <Row>
+            <Col
+              id="portfolio-col"
+              xs={12}
+              md={4}
+              data-aos="flip-up"
+              data-aos-anchor-placement="bottom-bottom"
+              data-aos-duration="600"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="true"
+            >
+              <Thumbnail
+                id="port"
+                src="/docker.png"
+                alt="242x200"
+                href="https://bulkvoidxero.herokuapp.com/"
+                target="_blank"
+              >
+                <h3>
+                  <b>Docker Deploys &amp; MERN Boilerplate</b>
+                </h3>
+                <br />
+                <p>
+                  The cute Docker whale caught my attention while I was browsing
+                  the web. I've since learned how to use various Docker commands
+                  to create images, host projects on Docker and deploy them to
+                  Heroku.{' '}
+                  <a
+                    href="https://github.com/leslie-alldridge/mern-boilerplate"
+                    target="_blank"
+                  >
+                    Boilerplate
+                  </a>{' '}
+                  and{' '}
+                  <a
+                    href="https://github.com/leslie-alldridge/docker-node-mongo"
+                    target="_blank"
+                  >
+                    Task List
+                  </a>
+                  .
+                </p>
+              </Thumbnail>
+            </Col>
+            <Col
+              id="portfolio-col"
+              xs={12}
+              md={4}
+              data-aos="flip-up"
+              data-aos-anchor-placement="bottom-bottom"
+              data-aos-duration="600"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="true"
+            >
+              <Thumbnail
+                id="port"
+                src="/docker.png"
+                alt="242x200"
+                href="https://github.com/leslie-alldridge/number-guesser"
+                target="_blank"
+              >
+                <h3>
+                  <b>C# Basics and Number Guessing Game</b>
+                </h3>
+                <br />
+                <p>
+                  I decided to dive into C# and challenge myself to learn
+                  something new. I covered the basics and created a small
+                  console game to test my skills. C# is definitely something on
+                  my radar of languages to learn and it's starting to feel
+                  natural.
+                </p>
+              </Thumbnail>
+            </Col>
+            <Col
+              id="portfolio-col"
+              xs={12}
+              md={4}
+              data-aos="flip-up"
+              data-aos-anchor-placement="bottom-bottom"
+              data-aos-duration="600"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="true"
+            >
+              <Thumbnail
+                id="port"
+                src="/loading.png"
+                alt="242x200"
+                href="https://bulkvoidxero.herokuapp.com/"
+                target="_blank"
+              >
+                <h3>
+                  <b>More coming soon</b>
+                </h3>
+                <br />
+                <p>
+                  I'm learning something new every day! Stay up to date by
+                  following me on GitHub or checking back here as my portfolio
+                  will be updated regularly.
+                </p>
+              </Thumbnail>
+            </Col>
+          </Row>
         </Grid>
       </div>
     );
