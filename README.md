@@ -2,9 +2,13 @@
 
 ## Goals 
 To create a mobile friendly version of my portfolio using mobile first design
+
 Link this project to my current portfolio and only users on mobile should see a prompt to visit this one instead
+
 Test landscape and portrait to ensure it's looking as intended
+
 Use an online mobile testing service to see how a myriad of devices will render this app. 
+
 
 ## Reflections
 I've built this website over a couple of days and kept it relatively simple but effective. I think this gives it a clean look and I'm on the fence whether it should replace my main portfolio or not. React Bootstrap helped with a lot of mobile containers but I still found I had to use custom CSS to get it working on most devices. I didn't mind doing this, because it was great practice to use media queries and test multiple devices. 
