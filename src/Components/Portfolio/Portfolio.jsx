@@ -381,9 +381,17 @@ export default class Portfolio extends React.Component {
                 </h3>
                 <br />
                 <p>
-                  I'm learning something new every day! Stay up to date by
-                  following me on GitHub or checking back here as my portfolio
-                  will be updated regularly.
+                  Current projects include a Python Django todo list, website
+                  for my local bakery, feedback and suggetions app for my team (
+                  <a
+                    rel="noopener noreferrer"
+                    href="https://cxtech.herokuapp.com/"
+                    target="_blank"
+                  >
+                    link
+                  </a>
+                  ) and a full stack shopping cart experience. Stay up to date
+                  by following me on GitHub!
                 </p>
               </Thumbnail>
             </Col>
