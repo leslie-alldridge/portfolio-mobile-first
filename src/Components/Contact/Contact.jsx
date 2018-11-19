@@ -1,5 +1,5 @@
-import React from 'react';
-import { Media } from 'react-bootstrap';
+import React from "react";
+import { Media } from "react-bootstrap";
 
 export default function Contact(props) {
   return (
@@ -54,12 +54,19 @@ export default function Contact(props) {
               </li>
 
               <a
+                target="_blank"
+                rel="noopener noreferrer"
                 id="contactLink"
                 href="https://www.linkedin.com/in/lesliealldridge/"
               >
                 <i id="pixel" class="fab fa-linkedin" /> LinkedIn
               </a>
-              <a id="contactLink" href="https://github.com/leslie-alldridge">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                id="contactLink"
+                href="https://github.com/leslie-alldridge"
+              >
                 <i id="pixel" class="fab fa-github" /> Github
               </a>
             </ul>

@@ -1,5 +1,5 @@
-import React from 'react';
-import { Col } from 'react-bootstrap';
+import React from "react";
+import { Col } from "react-bootstrap";
 
 export default function PersonalBlogs(props) {
   return (
@@ -51,7 +51,8 @@ export default function PersonalBlogs(props) {
           critical to success. We've had a few road bumps early on where
           expectations and roles weren't set, leading to us having nothing to
           present. I'm glad to have been through this experience as it was
-          valuable to reflect on.
+          valuable to reflect on and it added huge value to my bootcamp
+          experience.
         </p>
       </Col>
       <Col id="blogCol">

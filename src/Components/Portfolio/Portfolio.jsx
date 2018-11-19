@@ -1,6 +1,6 @@
-import React from 'react';
-import { Grid, Thumbnail, Row, Col } from 'react-bootstrap';
-import PortfolioHeader from './PortfolioHeader';
+import React from "react";
+import { Grid, Thumbnail, Row, Col } from "react-bootstrap";
+import PortfolioHeader from "./PortfolioHeader";
 
 export default class Portfolio extends React.Component {
   render() {
@@ -307,17 +307,19 @@ export default class Portfolio extends React.Component {
                 <br />
                 <p>
                   I've learned how to use various Docker commands to create
-                  images, host projects on Docker and deploy them to Heroku.{' '}
+                  images, host projects on Docker and deploy them to Heroku.{" "}
                   <a
                     href="https://github.com/leslie-alldridge/mern-boilerplate"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Boilerplate
-                  </a>{' '}
-                  and{' '}
+                  </a>{" "}
+                  and{" "}
                   <a
                     href="https://github.com/leslie-alldridge/docker-node-mongo"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Task List
                   </a>

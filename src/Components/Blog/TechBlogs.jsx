@@ -1,5 +1,5 @@
-import React from 'react';
-import { Col } from 'react-bootstrap';
+import React from "react";
+import { Col } from "react-bootstrap";
 
 export default function TechBlogs(props) {
   return (
@@ -51,7 +51,7 @@ export default function TechBlogs(props) {
           thousands of items. I was inspired by a YouTube video of a Google
           interview, where the software engineer discoved more than five ways to
           achieve the same outcome. I'm currently learning C#, Rails, MongoDB,
-          Docker and Python.
+          Docker, Python and Django.
         </p>
       </Col>
       <Col id="blogCol">
